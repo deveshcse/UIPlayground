@@ -1,8 +1,10 @@
-import { useState } from "react";
-
-
+import TodoList from "./components/TodoList";
 function App() {
-  return <h1 className=" text-3x font-bold underline">Hello world!</h1>;
+  return (
+    <div className="h-screen bg-gray-400 flex flex-col  items-center ">
+      <TodoList />
+    </div>
+  );
 }
 
 export default App;
